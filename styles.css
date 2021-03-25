@@ -1,9 +1,17 @@
 
 h1 {
   font-family: 'Dancing Script', cursive;
-  font-size: 7rem;  
-  margin-top: 320px;
-  margin-left: 200px;
+  font-size: 7rem;
+  text-align: left;
+  margin-top: 450px;
+
+}
+
+@media only screen and (max-width: 768px) {
+h1{
+  font-size: 6rem;
+  margin-top: 300px; 
+  }
 }
 
 
@@ -101,7 +109,7 @@ margin-top: 0;
   height: 40rem;
   width: auto;
 
-  background-image: url("images/thumb_show.png");
+  background-image: url("images/mainImg.png");
   background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;

@@ -107,8 +107,8 @@ a:visited {
     height: 40rem;
     width: auto;
     background-image: url("images/header.png");
-    background-attachment: initial;
-    background-position: center;
+    background-size: auto;
+
     text-align: center;
 
   }

@@ -85,8 +85,7 @@ a:visited {
 .navbar {
   background-color: #f0e4d7;
   color: black;
-  border-left: 5px solid black;
-  border-right: 5px solid black;
+  
 }
 
 .navbar-brand {

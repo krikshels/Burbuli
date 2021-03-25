@@ -32,7 +32,7 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar fixed-top navbar-expand-lg ">
     <a class="navbar-brand" href="#">Burbulīte</a>
     <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -70,7 +70,7 @@
 
 
     <img src="images/bubbles.png" class="bubbles-img" alt="">
-    <h3>No maza burbulīša sētā līdz Lielam izlolotam sapnim sirdī! Milzu ziepju burbuļi Jūsu ballītei.</h3>
+    <h3 class="description">No maza burbulīša sētā līdz Lielam izlolotam sapnim sirdī! Milzu ziepju burbuļi Jūsu ballītei.</h3>
 
 
 
@@ -143,7 +143,7 @@
 
   <div id="instruction"class="container-fluid instruction-container">
     <img src="images/mortar.png" class="product-image" alt="">
-    <h3>Lietosanas instrukcija</h3>
+    <h3>Lietošanas instrukcija</h3>
 
 
 
@@ -155,7 +155,7 @@
 
       </div>
       <div class="col-lg-12">
-        <p class="">Pirms sajauksanas ar udeni, VIENMER kartigi sakratiet pudeles saturu.</p>
+        <p class="">Pirms sajaukšanas ar ūdeni, VIENMĒR kārtīgi sakratiet pudeles saturu.</p>
       </div>
       <div class="col-lg-12">
         <img src="images/bowl.png" class="instruction-img" alt="">
@@ -163,14 +163,14 @@
       </div>
 
       <div class="col-lg-12">
-        <p>Sagatavojiet trauku, kura ietilpst 5L udens. Ielejiet trauka 5L siltu krana udeni.</p>
+        <p>Sagatavojiet trauku, kurā ietilpst 5L ūdens. Ielejiet traukā 5L siltu krāna ūdeni.</p>
       </div>
       <div class="col-lg-12">
         <img src="images/stir.png" class="instruction-img" alt="">
 
       </div>
       <div class="col-lg-12">
-        <p>Pievienojiet visu pudeles saturu udenim un rupigi izmaisiet.</p>
+        <p>Pievienojiet visu pudeles saturu ūdenim un rūpīgi izmaisiet.</p>
       </div>
 
       <div class="col-lg-12">
@@ -179,13 +179,16 @@
       </div>
 
       <div class="col-lg-12">
-        <p>Kad staipiga masa ir pilniba izskidusi, burbulprieki var sakties! Veidojot burbulus, censties masu neputot. Jo mazak putu, jo noturigaki burbuli!</p>
+        <p>Kad staipīgā masa ir pilnībā izšķīdusi, burbuļprieki var sākties! Veidojot burbuļus, censties masu neputot. Jo mazāk putu, jo noturīgāki burbuļi!</p>
       </div>
     </div>
 
 <hr>
 
-<h4>Ja vēlaties ar mums sazināties, esam viena klikšķa attālumā-  spied uz zemāk esošajiem soctīklu logo un gaidīsim Jūsu ziņu! ❤</h4>
+<h4>Ja vēlaties ar mums sazināties, esam viena klikšķa attālumā-  spied uz zemāk esošajiem soctīklu logo un gaidīsim Jūsu ziņu!
+  </h4>
+
+  <h5>Jūsu , Burbulīte ❤</h5>
 
 <img src="images/bubbles5.png" class="contact-image" alt="">
 
@@ -203,15 +206,19 @@
 
   <div id="order" class="footer container-fluid">
 
+
     <a href="https://www.facebook.com/Burbulitesburbuli">  <i class=" socials fab fa-facebook-f fa-2x" ></i></a>
 
       <a href="https://www.instagram.com/burbulites_burbuli/">  <i class=" socials fab fa-instagram fa-2x"></i></a>
 
 
-      <i class=" socials far fa-envelope fa-2x"></i><span class="icon-text">anitaaa123@inbox.lv</span>
 
-      <i class="socials fas fa-phone-square-alt fa-2x"></i><span class="icon-text">+37126126313</span>
 
+       <a id="show2" href="#mail" onclick="showEmail();"><i class=" socials far fa-envelope fa-2x envelope"></i></a>
+       <a id="mail" href="mailto: anitaaa123@inbox.lv">anitaaa123@inbox.lv</a>
+
+        <a id="show" href="#phone" onclick="show();"><i class="socials fas fa-phone-square-alt fa-2x envelope"></i></a>
+        <a id="phone" href="tel:+37126126313">+37126126313</a>
 
 
 
@@ -231,7 +238,9 @@
 
 
 
+<script src="app.js" charset="utf-8"></script>
 
+</script>
 </body>
 
 </html>

@@ -8,13 +8,26 @@ h1 {
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 4rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
   }
 }
-@media only screen and (max-width: 768px) {
-  h3{
-  font-size: 2.5rem;
+
+.description{
+  font-size: 2rem;
   line-height: 1.5;
   padding: 5px;
   width: 60%;
@@ -23,22 +36,15 @@ h1 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
-
-
-
+h3{
+font-family: 'Poppins', sans-serif;
 }
 
-h3 {
-  font-size: 2.5rem;
-  line-height: 1.5;
-  padding: 5px;
-  width: 60%;
-  margin: auto;
-  margin-bottom: 50px;
+h4{
   font-family: 'Poppins', sans-serif;
-  text-align: center;
+  width: 70%;
+  margin: auto auto 20px;
 }
-
 h5 {
   margin-top: 20px;
 }
@@ -85,7 +91,6 @@ a:visited {
 .navbar {
   background-color: #f0e4d7;
   color: black;
-
 }
 
 .navbar-brand {
@@ -100,17 +105,11 @@ a:visited {
   padding-right: 20px;
 }
 
-
-
-
-
-
 .top-container {
   border: 5px solid black;
   height: 40rem;
   width: auto;
   background-image: url("images/header.png");
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,7 +122,7 @@ a:visited {
   text-align: center;
   background-color: #f9f3f3;
   height: auto;
-width: auto;
+  width: auto;
   border-left: 5px solid black;
   border-right: 5px solid black;
 }
@@ -186,7 +185,7 @@ width: auto;
   border: 5px solid black;
   width: 350px;
   height: 350px;
-  margin: 20px 20px 60px;
+margin: 40px auto;
 }
 
 .product-image {
@@ -211,8 +210,9 @@ width: auto;
 }
 
 .socials {
-  margin-bottom: 5px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .icon-text {
@@ -222,4 +222,20 @@ width: auto;
 
 .contacts {
   text-align: center;
+}
+
+#phone {
+
+  display: none;
+}
+
+#mail {
+
+  display: none;
+}
+
+.socials:hover{
+  transform: scale(1.5);
+   animation-duration: 500ms;
+   color: #b68973;
 }
